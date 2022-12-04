@@ -1,0 +1,12 @@
+1. Document
+    Representasi dari halaman web
+2. Node
+    Base class untuk semua tipe data di DOM. Ex: Document, Element, dan attr
+3. Element
+    Representasi object element di halaman web. Ex: head, body, form, input dll
+4. NodeLists
+    Array/collection yang berisikan node
+5. Attr
+    Attribute, merupakan representasi object attribute dalam element
+6. NamedNodeMap
+    Merupakan collection yang berisikan Attr dalam bentuk Map

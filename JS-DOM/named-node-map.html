@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Named Node Map</title>
+  </head>
+  <body>
+    <img
+      src="https://pbs.twimg.com/profile_images/875996174305472512/upM71pVR_400x400.jpg"
+      alt="Named Node Map"
+      id="logo"
+    />
+
+    <script>
+      const logo = document.getElementById("logo");
+      const attributes = logo.attributes;
+
+      for (let attribute of attributes) {
+        console.log(`${attribute.name} : ${attribute.value}`);
+      }
+    </script>
+  </body>
+</html>
